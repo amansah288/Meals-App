@@ -1,11 +1,12 @@
 {
   "expo": {
     "name": "Meals-App",
-    "slug": "Meals-App",
+    "slug": "meal-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
+    "backgroundColor": "#24180f",
     "splash": {
       "image": "./assets/splash.png",
       "resizeMode": "contain",
@@ -21,10 +22,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.aman841407.mealapp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9635e4fa-2a26-4290-ab7c-2eacd3263fe0"
+      }
+    },
+    "owner": "aman841407"
   }
 }
